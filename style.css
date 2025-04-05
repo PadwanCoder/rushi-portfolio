@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    justify-items: center;
+}
+li{
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+li a{
+    text-decoration: none;
+    color: #333;
+}
+
+input ,label ,textarea{
+    display: block;
+    margin: 10px auto;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button{
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px auto;
+    display: block;
+    width: 30%;
+}
+
+hr{
+    margin: 20px auto;
+    width: 80%;
+    border: 1px solid #ccc;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    margin: 10px 0;
+}
+
+.social-media a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.social-media svg {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+}

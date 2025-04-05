@@ -1,1 +1,1 @@
-# rushi-portfolio
+# pratik-portfolio
